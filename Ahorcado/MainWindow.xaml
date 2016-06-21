@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Ahorcado"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Ahorca-A-PHP - Emmanuel Arias Soto" Height="253.5" Width="405.631">
     <Grid>
-        
+        <Label x:Name="label" Content="Bienvenido" HorizontalAlignment="Left" Margin="91,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.842,2.385" FontSize="42"/>
+        <Button x:Name="button" Content="Iniciar Juego" HorizontalAlignment="Left" Margin="166,129,0,0" VerticalAlignment="Top" Width="74" Click="button_Click"/>
+        <Label x:Name="label1" Content="Escriba su nombre para iniciar" HorizontalAlignment="Left" Margin="79,66,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="24" Margin="143,100,0,0" TextWrapping="Wrap" Text="Emmanuel" VerticalAlignment="Top" Width="120" FontSize="18"/>
+
     </Grid>
 </Window>

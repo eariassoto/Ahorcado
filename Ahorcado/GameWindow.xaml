@@ -1,0 +1,24 @@
+﻿<Window x:Class="Ahorcado.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ahorcado"
+        mc:Ignorable="d"
+        Title="Ahorca-A-PHP" Height="429.716" Width="605.013">
+    <Grid>
+        <Label x:Name="labelIntentos" Content="Label" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Comic Sans MS"/>
+        <Label x:Name="labelUsuario" Content="Label" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="22" RenderTransformOrigin="0.651,0.38" FontFamily="Comic Sans MS"/>
+        <Label x:Name="labelPalabra" Content="Label" HorizontalAlignment="Left" Margin="10,77,0,0" VerticalAlignment="Top" FontSize="32" Width="568" FontFamily="Comic Sans MS"/>
+        <Label x:Name="labelRespuesta" Content="Label" HorizontalAlignment="Left" Margin="10,363,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label"  Content="Espero no le moleste el spanglish&#xD;&#xA;porque la palabra está en inglés." HorizontalAlignment="Left" Margin="364,10,0,0" VerticalAlignment="Top" Height="62" Width="223" FontFamily="Comic Sans MS" Foreground="#FF2838D8" FontSize="14"/>
+        <Label x:Name="label1" Content="Caracter:" HorizontalAlignment="Left" Margin="10,135,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="16"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="96,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="57" FontFamily="Comic Sans MS" FontSize="16"/>
+        <Button x:Name="button" Content="Go" HorizontalAlignment="Left" Margin="170,143,0,0" VerticalAlignment="Top" Width="50" FontFamily="Comic Sans MS" FontSize="16" Click="button_Click"/>
+        <Label x:Name="labelMensaje" Content="" HorizontalAlignment="Left" Margin="225,143,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="16" Width="243"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="188" Margin="344,177,0,0" VerticalAlignment="Top" Width="225"/>
+        <Label x:Name="labelFin" Content="Label" HorizontalAlignment="Left" Margin="10,177,0,0" VerticalAlignment="Top" Foreground="#FFBB0E0E" FontFamily="Comic Sans MS" FontSize="20"/>
+        <Button x:Name="buttonJuego" Content="New Juego" HorizontalAlignment="Left" Margin="10,220,0,0" VerticalAlignment="Top" Width="75" FontFamily="Comic Sans MS"/>
+
+    </Grid>
+</Window>

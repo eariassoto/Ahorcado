@@ -24,5 +24,12 @@ namespace Ahorcado
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            GameWindow game = new GameWindow(textBox.Text);
+            game.Visibility = Visibility.Visible;
+            Close();
+        }
     }
 }

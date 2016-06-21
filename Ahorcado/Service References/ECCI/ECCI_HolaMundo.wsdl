@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="urn:ECCI_HolaMundo" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns="http://schemas.xmlsoap.org/wsdl/" name="ECCI_HolaMundo" targetNamespace="urn:ECCI_HolaMundo" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types xmlns="http://schemas.xmlsoap.org/wsdl/">
+    <xsd:schema targetNamespace="urn:ECCI_HolaMundo">
+      <xsd:element name="iniciarJuego">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="usuario" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="iniciarJuegoReturn">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="iniciarJuegoResult" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ingresarLetra">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="letra" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ingresarLetraReturn">
+        <xsd:complexType />
+      </xsd:element>
+      <xsd:element name="obtenerIntentosRestantes">
+        <xsd:complexType />
+      </xsd:element>
+      <xsd:element name="obtenerIntentosRestantesReturn">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="obtenerIntentosRestantesResult" type="xsd:integer" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="obtenerPalabraParcial">
+        <xsd:complexType />
+      </xsd:element>
+      <xsd:element name="obtenerPalabraParcialReturn">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="obtenerPalabraParcialResult" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="obtenerPalabra">
+        <xsd:complexType />
+      </xsd:element>
+      <xsd:element name="obtenerPalabraReturn">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="obtenerPalabraResult" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="salude">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="nombre" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="saludeReturn">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="saludeResult" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="servidorEstampillaDeTiempo">
+        <xsd:complexType />
+      </xsd:element>
+      <xsd:element name="servidorEstampillaDeTiempoReturn">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="servidorEstampillaDeTiempoResult" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ultimoSaludo">
+        <xsd:complexType />
+      </xsd:element>
+      <xsd:element name="ultimoSaludoReturn">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="ultimoSaludoResult" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="iniciarJuegoRequest">
+    <wsdl:part name="parameters" element="tns:iniciarJuego" />
+  </wsdl:message>
+  <wsdl:message name="iniciarJuegoResponse">
+    <wsdl:part name="parameters" element="tns:iniciarJuegoReturn" />
+  </wsdl:message>
+  <wsdl:message name="ingresarLetraRequest">
+    <wsdl:part name="parameters" element="tns:ingresarLetra" />
+  </wsdl:message>
+  <wsdl:message name="ingresarLetraResponse">
+    <wsdl:part name="parameters" element="tns:ingresarLetraReturn" />
+  </wsdl:message>
+  <wsdl:message name="obtenerIntentosRestantesRequest">
+    <wsdl:part name="parameters" element="tns:obtenerIntentosRestantes" />
+  </wsdl:message>
+  <wsdl:message name="obtenerIntentosRestantesResponse">
+    <wsdl:part name="parameters" element="tns:obtenerIntentosRestantesReturn" />
+  </wsdl:message>
+  <wsdl:message name="obtenerPalabraParcialRequest">
+    <wsdl:part name="parameters" element="tns:obtenerPalabraParcial" />
+  </wsdl:message>
+  <wsdl:message name="obtenerPalabraParcialResponse">
+    <wsdl:part name="parameters" element="tns:obtenerPalabraParcialReturn" />
+  </wsdl:message>
+  <wsdl:message name="obtenerPalabraRequest">
+    <wsdl:part name="parameters" element="tns:obtenerPalabra" />
+  </wsdl:message>
+  <wsdl:message name="obtenerPalabraResponse">
+    <wsdl:part name="parameters" element="tns:obtenerPalabraReturn" />
+  </wsdl:message>
+  <wsdl:message name="saludeRequest">
+    <wsdl:part name="parameters" element="tns:salude" />
+  </wsdl:message>
+  <wsdl:message name="saludeResponse">
+    <wsdl:part name="parameters" element="tns:saludeReturn" />
+  </wsdl:message>
+  <wsdl:message name="servidorEstampillaDeTiempoRequest">
+    <wsdl:part name="parameters" element="tns:servidorEstampillaDeTiempo" />
+  </wsdl:message>
+  <wsdl:message name="servidorEstampillaDeTiempoResponse">
+    <wsdl:part name="parameters" element="tns:servidorEstampillaDeTiempoReturn" />
+  </wsdl:message>
+  <wsdl:message name="ultimoSaludoRequest">
+    <wsdl:part name="parameters" element="tns:ultimoSaludo" />
+  </wsdl:message>
+  <wsdl:message name="ultimoSaludoResponse">
+    <wsdl:part name="parameters" element="tns:ultimoSaludoReturn" />
+  </wsdl:message>
+  <wsdl:portType name="ECCI_HolaMundoPort">
+    <wsdl:operation name="iniciarJuego">
+      <wsdl:input message="tns:iniciarJuegoRequest" />
+      <wsdl:output message="tns:iniciarJuegoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ingresarLetra">
+      <wsdl:input message="tns:ingresarLetraRequest" />
+      <wsdl:output message="tns:ingresarLetraResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerIntentosRestantes">
+      <wsdl:input message="tns:obtenerIntentosRestantesRequest" />
+      <wsdl:output message="tns:obtenerIntentosRestantesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerPalabraParcial">
+      <wsdl:input message="tns:obtenerPalabraParcialRequest" />
+      <wsdl:output message="tns:obtenerPalabraParcialResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerPalabra">
+      <wsdl:input message="tns:obtenerPalabraRequest" />
+      <wsdl:output message="tns:obtenerPalabraResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="salude">
+      <wsdl:input message="tns:saludeRequest" />
+      <wsdl:output message="tns:saludeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="servidorEstampillaDeTiempo">
+      <wsdl:input message="tns:servidorEstampillaDeTiempoRequest" />
+      <wsdl:output message="tns:servidorEstampillaDeTiempoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ultimoSaludo">
+      <wsdl:input message="tns:ultimoSaludoRequest" />
+      <wsdl:output message="tns:ultimoSaludoResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ECCI_HolaMundoBinding" type="tns:ECCI_HolaMundoPort">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="iniciarJuego">
+      <soap:operation soapAction="urn:ECCI_HolaMundo#HolaMundo#iniciarJuego" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ingresarLetra">
+      <soap:operation soapAction="urn:ECCI_HolaMundo#HolaMundo#ingresarLetra" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerIntentosRestantes">
+      <soap:operation soapAction="urn:ECCI_HolaMundo#HolaMundo#obtenerIntentosRestantes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerPalabraParcial">
+      <soap:operation soapAction="urn:ECCI_HolaMundo#HolaMundo#obtenerPalabraParcial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerPalabra">
+      <soap:operation soapAction="urn:ECCI_HolaMundo#HolaMundo#obtenerPalabra" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="salude">
+      <soap:operation soapAction="urn:ECCI_HolaMundo#HolaMundo#salude" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="servidorEstampillaDeTiempo">
+      <soap:operation soapAction="urn:ECCI_HolaMundo#HolaMundo#servidorEstampillaDeTiempo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ultimoSaludo">
+      <soap:operation soapAction="urn:ECCI_HolaMundo#HolaMundo#ultimoSaludo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ECCI_HolaMundo">
+    <documentation />
+    <wsdl:port name="ECCI_HolaMundoPort" binding="tns:ECCI_HolaMundoBinding">
+      <soap:address location="http://titanic.ecci.ucr.ac.cr:80/~eb30640/JuegoAhorcadoService/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
