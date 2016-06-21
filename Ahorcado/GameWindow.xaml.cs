@@ -22,13 +22,14 @@ namespace Ahorcado
         ECCI.ECCI_HolaMundoPortClient client = new ECCI.ECCI_HolaMundoPortClient();
         int intentosRestantes;
         string usuario;
+        List<char> usados;
 
         public GameWindow(String nombreUsuario)
         {
             InitializeComponent();
             usuario = nombreUsuario;
             labelUsuario.Content = "Jugador: " + usuario;
-
+            usados = new List<char>();
             actualizarTodo();
         }
 
@@ -37,8 +38,8 @@ namespace Ahorcado
             intentosRestantes = (int)client.obtenerIntentosRestantes();
             labelIntentos.Content = "Intentos restantes: " + intentosRestantes.ToString();
             string p = client.obtenerPalabraParcial();
-            labelPalabra.Content = p;
-            labelRespuesta.Content = client.obtenerPalabra();
+            textBlock.Text = p;
+            labelRespuesta.Content = client.obtenerPalabra() + " (esta fijo no es la respuesta)";
             image.Source = new BitmapImage(new Uri("http://titanic.ecci.ucr.ac.cr/~eb30640/imgphp/i"+intentosRestantes.ToString()+".png", UriKind.Absolute));
 
 
@@ -51,7 +52,14 @@ namespace Ahorcado
                 if(!p.Contains("_"))
                 {
                     labelFin.Content = "Ganó, congrats.";
+                    labelTiempo.Content = "Duración: " + client.obtenerTiempo().ToString() + " segundos.";
                 }
+            }
+
+            labelUsados.Content = "Chars usados: ";
+            foreach(var c in usados)
+            {
+                labelUsados.Content += c + " ";
             }
 
             textBox.Text = "";
@@ -78,12 +86,21 @@ namespace Ahorcado
                     }
                     else
                     {
-                        button.IsEnabled = false;
-                        labelMensaje.Content = "";
-                        client.ingresarLetra(letra);
-                        actualizarTodo();
-                        labelMensaje.Content = "K.";
-                        button.IsEnabled = true;
+                        if(usados.Contains(letra.ElementAt(0)))
+                        {
+                            labelMensaje.Content = "Already used that letter.";
+                        }
+                        else
+                        {
+                            button.IsEnabled = false;
+                            labelMensaje.Content = "";
+                            client.ingresarLetra(letra);
+                            usados.Add(letra.ElementAt(0));
+                            labelMensaje.Content = "K.";
+                            actualizarTodo();
+                            button.IsEnabled = true;
+                            
+                        }
                     }
                 }
             }

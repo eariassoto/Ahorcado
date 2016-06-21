@@ -120,13 +120,7 @@
     <None Include="Service References\ECCI\Ahorcado.ECCI.obtenerPalabraResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\ECCI\Ahorcado.ECCI.saludeResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\ECCI\Ahorcado.ECCI.servidorEstampillaDeTiempoResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\ECCI\Ahorcado.ECCI.ultimoSaludoResponse.datasource">
+    <None Include="Service References\ECCI\Ahorcado.ECCI.obtenerTiempoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\ECCI\ECCI_HolaMundo.wsdl" />
