@@ -28,6 +28,7 @@ namespace Ahorcado
         {
             InitializeComponent();
             usuario = nombreUsuario;
+            client.iniciarJuego(usuario);
             labelUsuario.Content = "Jugador: " + usuario;
             usados = new List<char>();
             actualizarTodo();
@@ -104,6 +105,12 @@ namespace Ahorcado
                     }
                 }
             }
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            TopWindow w = new TopWindow();
+            w.Visibility = Visibility.Visible;
         }
     }
 }

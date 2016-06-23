@@ -8,68 +8,68 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Ahorcado.ECCI {
+namespace UnitTestProject1.ECCI_Test {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(Namespace="urn:ECCI_HolaMundo", ConfigurationName="ECCI.ECCI_HolaMundoPort")]
+    [System.ServiceModel.ServiceContractAttribute(Namespace="urn:ECCI_HolaMundo", ConfigurationName="ECCI_Test.ECCI_HolaMundoPort")]
     public interface ECCI_HolaMundoPort {
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de contenedor (iniciarJuegoReturn) del mensaje iniciarJuegoResponse no coincide con el valor predeterminado (iniciarJuego)
         [System.ServiceModel.OperationContractAttribute(Action="urn:ECCI_HolaMundo#HolaMundo#iniciarJuego", ReplyAction="*")]
-        Ahorcado.ECCI.iniciarJuegoResponse iniciarJuego(Ahorcado.ECCI.iniciarJuegoRequest request);
+        UnitTestProject1.ECCI_Test.iniciarJuegoResponse iniciarJuego(UnitTestProject1.ECCI_Test.iniciarJuegoRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:ECCI_HolaMundo#HolaMundo#iniciarJuego", ReplyAction="*")]
-        System.Threading.Tasks.Task<Ahorcado.ECCI.iniciarJuegoResponse> iniciarJuegoAsync(Ahorcado.ECCI.iniciarJuegoRequest request);
+        System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.iniciarJuegoResponse> iniciarJuegoAsync(UnitTestProject1.ECCI_Test.iniciarJuegoRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de contenedor (ingresarLetraReturn) del mensaje ingresarLetraResponse no coincide con el valor predeterminado (ingresarLetra)
         [System.ServiceModel.OperationContractAttribute(Action="urn:ECCI_HolaMundo#HolaMundo#ingresarLetra", ReplyAction="*")]
-        Ahorcado.ECCI.ingresarLetraResponse ingresarLetra(Ahorcado.ECCI.ingresarLetraRequest request);
+        UnitTestProject1.ECCI_Test.ingresarLetraResponse ingresarLetra(UnitTestProject1.ECCI_Test.ingresarLetraRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:ECCI_HolaMundo#HolaMundo#ingresarLetra", ReplyAction="*")]
-        System.Threading.Tasks.Task<Ahorcado.ECCI.ingresarLetraResponse> ingresarLetraAsync(Ahorcado.ECCI.ingresarLetraRequest request);
+        System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.ingresarLetraResponse> ingresarLetraAsync(UnitTestProject1.ECCI_Test.ingresarLetraRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de contenedor (obtenerIntentosRestantesReturn) del mensaje obtenerIntentosRestantesResponse no coincide con el valor predeterminado (obtenerIntentosRestantes)
         [System.ServiceModel.OperationContractAttribute(Action="urn:ECCI_HolaMundo#HolaMundo#obtenerIntentosRestantes", ReplyAction="*")]
-        Ahorcado.ECCI.obtenerIntentosRestantesResponse obtenerIntentosRestantes(Ahorcado.ECCI.obtenerIntentosRestantesRequest request);
+        UnitTestProject1.ECCI_Test.obtenerIntentosRestantesResponse obtenerIntentosRestantes(UnitTestProject1.ECCI_Test.obtenerIntentosRestantesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:ECCI_HolaMundo#HolaMundo#obtenerIntentosRestantes", ReplyAction="*")]
-        System.Threading.Tasks.Task<Ahorcado.ECCI.obtenerIntentosRestantesResponse> obtenerIntentosRestantesAsync(Ahorcado.ECCI.obtenerIntentosRestantesRequest request);
+        System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.obtenerIntentosRestantesResponse> obtenerIntentosRestantesAsync(UnitTestProject1.ECCI_Test.obtenerIntentosRestantesRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de contenedor (obtenerPalabraParcialReturn) del mensaje obtenerPalabraParcialResponse no coincide con el valor predeterminado (obtenerPalabraParcial)
         [System.ServiceModel.OperationContractAttribute(Action="urn:ECCI_HolaMundo#HolaMundo#obtenerPalabraParcial", ReplyAction="*")]
-        Ahorcado.ECCI.obtenerPalabraParcialResponse obtenerPalabraParcial(Ahorcado.ECCI.obtenerPalabraParcialRequest request);
+        UnitTestProject1.ECCI_Test.obtenerPalabraParcialResponse obtenerPalabraParcial(UnitTestProject1.ECCI_Test.obtenerPalabraParcialRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:ECCI_HolaMundo#HolaMundo#obtenerPalabraParcial", ReplyAction="*")]
-        System.Threading.Tasks.Task<Ahorcado.ECCI.obtenerPalabraParcialResponse> obtenerPalabraParcialAsync(Ahorcado.ECCI.obtenerPalabraParcialRequest request);
+        System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.obtenerPalabraParcialResponse> obtenerPalabraParcialAsync(UnitTestProject1.ECCI_Test.obtenerPalabraParcialRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de contenedor (obtenerPalabraReturn) del mensaje obtenerPalabraResponse no coincide con el valor predeterminado (obtenerPalabra)
         [System.ServiceModel.OperationContractAttribute(Action="urn:ECCI_HolaMundo#HolaMundo#obtenerPalabra", ReplyAction="*")]
-        Ahorcado.ECCI.obtenerPalabraResponse obtenerPalabra(Ahorcado.ECCI.obtenerPalabraRequest request);
+        UnitTestProject1.ECCI_Test.obtenerPalabraResponse obtenerPalabra(UnitTestProject1.ECCI_Test.obtenerPalabraRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:ECCI_HolaMundo#HolaMundo#obtenerPalabra", ReplyAction="*")]
-        System.Threading.Tasks.Task<Ahorcado.ECCI.obtenerPalabraResponse> obtenerPalabraAsync(Ahorcado.ECCI.obtenerPalabraRequest request);
+        System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.obtenerPalabraResponse> obtenerPalabraAsync(UnitTestProject1.ECCI_Test.obtenerPalabraRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de contenedor (obtenerTiempoReturn) del mensaje obtenerTiempoResponse no coincide con el valor predeterminado (obtenerTiempo)
         [System.ServiceModel.OperationContractAttribute(Action="urn:ECCI_HolaMundo#HolaMundo#obtenerTiempo", ReplyAction="*")]
-        Ahorcado.ECCI.obtenerTiempoResponse obtenerTiempo(Ahorcado.ECCI.obtenerTiempoRequest request);
+        UnitTestProject1.ECCI_Test.obtenerTiempoResponse obtenerTiempo(UnitTestProject1.ECCI_Test.obtenerTiempoRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:ECCI_HolaMundo#HolaMundo#obtenerTiempo", ReplyAction="*")]
-        System.Threading.Tasks.Task<Ahorcado.ECCI.obtenerTiempoResponse> obtenerTiempoAsync(Ahorcado.ECCI.obtenerTiempoRequest request);
+        System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.obtenerTiempoResponse> obtenerTiempoAsync(UnitTestProject1.ECCI_Test.obtenerTiempoRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de contenedor (obtenerTopReturn) del mensaje obtenerTopResponse no coincide con el valor predeterminado (obtenerTop)
         [System.ServiceModel.OperationContractAttribute(Action="urn:ECCI_HolaMundo#HolaMundo#obtenerTop", ReplyAction="*")]
-        Ahorcado.ECCI.obtenerTopResponse obtenerTop(Ahorcado.ECCI.obtenerTopRequest request);
+        UnitTestProject1.ECCI_Test.obtenerTopResponse obtenerTop(UnitTestProject1.ECCI_Test.obtenerTopRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:ECCI_HolaMundo#HolaMundo#obtenerTop", ReplyAction="*")]
-        System.Threading.Tasks.Task<Ahorcado.ECCI.obtenerTopResponse> obtenerTopAsync(Ahorcado.ECCI.obtenerTopRequest request);
+        System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.obtenerTopResponse> obtenerTopAsync(UnitTestProject1.ECCI_Test.obtenerTopRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de contenedor (ganoReturn) del mensaje ganoResponse no coincide con el valor predeterminado (gano)
         [System.ServiceModel.OperationContractAttribute(Action="urn:ECCI_HolaMundo#HolaMundo#gano", ReplyAction="*")]
-        Ahorcado.ECCI.ganoResponse gano(Ahorcado.ECCI.ganoRequest request);
+        UnitTestProject1.ECCI_Test.ganoResponse gano(UnitTestProject1.ECCI_Test.ganoRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:ECCI_HolaMundo#HolaMundo#gano", ReplyAction="*")]
-        System.Threading.Tasks.Task<Ahorcado.ECCI.ganoResponse> ganoAsync(Ahorcado.ECCI.ganoRequest request);
+        System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.ganoResponse> ganoAsync(UnitTestProject1.ECCI_Test.ganoRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -296,12 +296,12 @@ namespace Ahorcado.ECCI {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface ECCI_HolaMundoPortChannel : Ahorcado.ECCI.ECCI_HolaMundoPort, System.ServiceModel.IClientChannel {
+    public interface ECCI_HolaMundoPortChannel : UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class ECCI_HolaMundoPortClient : System.ServiceModel.ClientBase<Ahorcado.ECCI.ECCI_HolaMundoPort>, Ahorcado.ECCI.ECCI_HolaMundoPort {
+    public partial class ECCI_HolaMundoPortClient : System.ServiceModel.ClientBase<UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort>, UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort {
         
         public ECCI_HolaMundoPortClient() {
         }
@@ -323,174 +323,174 @@ namespace Ahorcado.ECCI {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Ahorcado.ECCI.iniciarJuegoResponse Ahorcado.ECCI.ECCI_HolaMundoPort.iniciarJuego(Ahorcado.ECCI.iniciarJuegoRequest request) {
+        UnitTestProject1.ECCI_Test.iniciarJuegoResponse UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort.iniciarJuego(UnitTestProject1.ECCI_Test.iniciarJuegoRequest request) {
             return base.Channel.iniciarJuego(request);
         }
         
         public string iniciarJuego(string usuario) {
-            Ahorcado.ECCI.iniciarJuegoRequest inValue = new Ahorcado.ECCI.iniciarJuegoRequest();
+            UnitTestProject1.ECCI_Test.iniciarJuegoRequest inValue = new UnitTestProject1.ECCI_Test.iniciarJuegoRequest();
             inValue.usuario = usuario;
-            Ahorcado.ECCI.iniciarJuegoResponse retVal = ((Ahorcado.ECCI.ECCI_HolaMundoPort)(this)).iniciarJuego(inValue);
+            UnitTestProject1.ECCI_Test.iniciarJuegoResponse retVal = ((UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort)(this)).iniciarJuego(inValue);
             return retVal.iniciarJuegoResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Ahorcado.ECCI.iniciarJuegoResponse> Ahorcado.ECCI.ECCI_HolaMundoPort.iniciarJuegoAsync(Ahorcado.ECCI.iniciarJuegoRequest request) {
+        System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.iniciarJuegoResponse> UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort.iniciarJuegoAsync(UnitTestProject1.ECCI_Test.iniciarJuegoRequest request) {
             return base.Channel.iniciarJuegoAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Ahorcado.ECCI.iniciarJuegoResponse> iniciarJuegoAsync(string usuario) {
-            Ahorcado.ECCI.iniciarJuegoRequest inValue = new Ahorcado.ECCI.iniciarJuegoRequest();
+        public System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.iniciarJuegoResponse> iniciarJuegoAsync(string usuario) {
+            UnitTestProject1.ECCI_Test.iniciarJuegoRequest inValue = new UnitTestProject1.ECCI_Test.iniciarJuegoRequest();
             inValue.usuario = usuario;
-            return ((Ahorcado.ECCI.ECCI_HolaMundoPort)(this)).iniciarJuegoAsync(inValue);
+            return ((UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort)(this)).iniciarJuegoAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Ahorcado.ECCI.ingresarLetraResponse Ahorcado.ECCI.ECCI_HolaMundoPort.ingresarLetra(Ahorcado.ECCI.ingresarLetraRequest request) {
+        UnitTestProject1.ECCI_Test.ingresarLetraResponse UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort.ingresarLetra(UnitTestProject1.ECCI_Test.ingresarLetraRequest request) {
             return base.Channel.ingresarLetra(request);
         }
         
         public void ingresarLetra(string letra) {
-            Ahorcado.ECCI.ingresarLetraRequest inValue = new Ahorcado.ECCI.ingresarLetraRequest();
+            UnitTestProject1.ECCI_Test.ingresarLetraRequest inValue = new UnitTestProject1.ECCI_Test.ingresarLetraRequest();
             inValue.letra = letra;
-            Ahorcado.ECCI.ingresarLetraResponse retVal = ((Ahorcado.ECCI.ECCI_HolaMundoPort)(this)).ingresarLetra(inValue);
+            UnitTestProject1.ECCI_Test.ingresarLetraResponse retVal = ((UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort)(this)).ingresarLetra(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Ahorcado.ECCI.ingresarLetraResponse> Ahorcado.ECCI.ECCI_HolaMundoPort.ingresarLetraAsync(Ahorcado.ECCI.ingresarLetraRequest request) {
+        System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.ingresarLetraResponse> UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort.ingresarLetraAsync(UnitTestProject1.ECCI_Test.ingresarLetraRequest request) {
             return base.Channel.ingresarLetraAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Ahorcado.ECCI.ingresarLetraResponse> ingresarLetraAsync(string letra) {
-            Ahorcado.ECCI.ingresarLetraRequest inValue = new Ahorcado.ECCI.ingresarLetraRequest();
+        public System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.ingresarLetraResponse> ingresarLetraAsync(string letra) {
+            UnitTestProject1.ECCI_Test.ingresarLetraRequest inValue = new UnitTestProject1.ECCI_Test.ingresarLetraRequest();
             inValue.letra = letra;
-            return ((Ahorcado.ECCI.ECCI_HolaMundoPort)(this)).ingresarLetraAsync(inValue);
+            return ((UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort)(this)).ingresarLetraAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Ahorcado.ECCI.obtenerIntentosRestantesResponse Ahorcado.ECCI.ECCI_HolaMundoPort.obtenerIntentosRestantes(Ahorcado.ECCI.obtenerIntentosRestantesRequest request) {
+        UnitTestProject1.ECCI_Test.obtenerIntentosRestantesResponse UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort.obtenerIntentosRestantes(UnitTestProject1.ECCI_Test.obtenerIntentosRestantesRequest request) {
             return base.Channel.obtenerIntentosRestantes(request);
         }
         
         public long obtenerIntentosRestantes() {
-            Ahorcado.ECCI.obtenerIntentosRestantesRequest inValue = new Ahorcado.ECCI.obtenerIntentosRestantesRequest();
-            Ahorcado.ECCI.obtenerIntentosRestantesResponse retVal = ((Ahorcado.ECCI.ECCI_HolaMundoPort)(this)).obtenerIntentosRestantes(inValue);
+            UnitTestProject1.ECCI_Test.obtenerIntentosRestantesRequest inValue = new UnitTestProject1.ECCI_Test.obtenerIntentosRestantesRequest();
+            UnitTestProject1.ECCI_Test.obtenerIntentosRestantesResponse retVal = ((UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort)(this)).obtenerIntentosRestantes(inValue);
             return retVal.obtenerIntentosRestantesResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Ahorcado.ECCI.obtenerIntentosRestantesResponse> Ahorcado.ECCI.ECCI_HolaMundoPort.obtenerIntentosRestantesAsync(Ahorcado.ECCI.obtenerIntentosRestantesRequest request) {
+        System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.obtenerIntentosRestantesResponse> UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort.obtenerIntentosRestantesAsync(UnitTestProject1.ECCI_Test.obtenerIntentosRestantesRequest request) {
             return base.Channel.obtenerIntentosRestantesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Ahorcado.ECCI.obtenerIntentosRestantesResponse> obtenerIntentosRestantesAsync() {
-            Ahorcado.ECCI.obtenerIntentosRestantesRequest inValue = new Ahorcado.ECCI.obtenerIntentosRestantesRequest();
-            return ((Ahorcado.ECCI.ECCI_HolaMundoPort)(this)).obtenerIntentosRestantesAsync(inValue);
+        public System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.obtenerIntentosRestantesResponse> obtenerIntentosRestantesAsync() {
+            UnitTestProject1.ECCI_Test.obtenerIntentosRestantesRequest inValue = new UnitTestProject1.ECCI_Test.obtenerIntentosRestantesRequest();
+            return ((UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort)(this)).obtenerIntentosRestantesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Ahorcado.ECCI.obtenerPalabraParcialResponse Ahorcado.ECCI.ECCI_HolaMundoPort.obtenerPalabraParcial(Ahorcado.ECCI.obtenerPalabraParcialRequest request) {
+        UnitTestProject1.ECCI_Test.obtenerPalabraParcialResponse UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort.obtenerPalabraParcial(UnitTestProject1.ECCI_Test.obtenerPalabraParcialRequest request) {
             return base.Channel.obtenerPalabraParcial(request);
         }
         
         public string obtenerPalabraParcial() {
-            Ahorcado.ECCI.obtenerPalabraParcialRequest inValue = new Ahorcado.ECCI.obtenerPalabraParcialRequest();
-            Ahorcado.ECCI.obtenerPalabraParcialResponse retVal = ((Ahorcado.ECCI.ECCI_HolaMundoPort)(this)).obtenerPalabraParcial(inValue);
+            UnitTestProject1.ECCI_Test.obtenerPalabraParcialRequest inValue = new UnitTestProject1.ECCI_Test.obtenerPalabraParcialRequest();
+            UnitTestProject1.ECCI_Test.obtenerPalabraParcialResponse retVal = ((UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort)(this)).obtenerPalabraParcial(inValue);
             return retVal.obtenerPalabraParcialResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Ahorcado.ECCI.obtenerPalabraParcialResponse> Ahorcado.ECCI.ECCI_HolaMundoPort.obtenerPalabraParcialAsync(Ahorcado.ECCI.obtenerPalabraParcialRequest request) {
+        System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.obtenerPalabraParcialResponse> UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort.obtenerPalabraParcialAsync(UnitTestProject1.ECCI_Test.obtenerPalabraParcialRequest request) {
             return base.Channel.obtenerPalabraParcialAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Ahorcado.ECCI.obtenerPalabraParcialResponse> obtenerPalabraParcialAsync() {
-            Ahorcado.ECCI.obtenerPalabraParcialRequest inValue = new Ahorcado.ECCI.obtenerPalabraParcialRequest();
-            return ((Ahorcado.ECCI.ECCI_HolaMundoPort)(this)).obtenerPalabraParcialAsync(inValue);
+        public System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.obtenerPalabraParcialResponse> obtenerPalabraParcialAsync() {
+            UnitTestProject1.ECCI_Test.obtenerPalabraParcialRequest inValue = new UnitTestProject1.ECCI_Test.obtenerPalabraParcialRequest();
+            return ((UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort)(this)).obtenerPalabraParcialAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Ahorcado.ECCI.obtenerPalabraResponse Ahorcado.ECCI.ECCI_HolaMundoPort.obtenerPalabra(Ahorcado.ECCI.obtenerPalabraRequest request) {
+        UnitTestProject1.ECCI_Test.obtenerPalabraResponse UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort.obtenerPalabra(UnitTestProject1.ECCI_Test.obtenerPalabraRequest request) {
             return base.Channel.obtenerPalabra(request);
         }
         
         public string obtenerPalabra() {
-            Ahorcado.ECCI.obtenerPalabraRequest inValue = new Ahorcado.ECCI.obtenerPalabraRequest();
-            Ahorcado.ECCI.obtenerPalabraResponse retVal = ((Ahorcado.ECCI.ECCI_HolaMundoPort)(this)).obtenerPalabra(inValue);
+            UnitTestProject1.ECCI_Test.obtenerPalabraRequest inValue = new UnitTestProject1.ECCI_Test.obtenerPalabraRequest();
+            UnitTestProject1.ECCI_Test.obtenerPalabraResponse retVal = ((UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort)(this)).obtenerPalabra(inValue);
             return retVal.obtenerPalabraResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Ahorcado.ECCI.obtenerPalabraResponse> Ahorcado.ECCI.ECCI_HolaMundoPort.obtenerPalabraAsync(Ahorcado.ECCI.obtenerPalabraRequest request) {
+        System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.obtenerPalabraResponse> UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort.obtenerPalabraAsync(UnitTestProject1.ECCI_Test.obtenerPalabraRequest request) {
             return base.Channel.obtenerPalabraAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Ahorcado.ECCI.obtenerPalabraResponse> obtenerPalabraAsync() {
-            Ahorcado.ECCI.obtenerPalabraRequest inValue = new Ahorcado.ECCI.obtenerPalabraRequest();
-            return ((Ahorcado.ECCI.ECCI_HolaMundoPort)(this)).obtenerPalabraAsync(inValue);
+        public System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.obtenerPalabraResponse> obtenerPalabraAsync() {
+            UnitTestProject1.ECCI_Test.obtenerPalabraRequest inValue = new UnitTestProject1.ECCI_Test.obtenerPalabraRequest();
+            return ((UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort)(this)).obtenerPalabraAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Ahorcado.ECCI.obtenerTiempoResponse Ahorcado.ECCI.ECCI_HolaMundoPort.obtenerTiempo(Ahorcado.ECCI.obtenerTiempoRequest request) {
+        UnitTestProject1.ECCI_Test.obtenerTiempoResponse UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort.obtenerTiempo(UnitTestProject1.ECCI_Test.obtenerTiempoRequest request) {
             return base.Channel.obtenerTiempo(request);
         }
         
         public int obtenerTiempo() {
-            Ahorcado.ECCI.obtenerTiempoRequest inValue = new Ahorcado.ECCI.obtenerTiempoRequest();
-            Ahorcado.ECCI.obtenerTiempoResponse retVal = ((Ahorcado.ECCI.ECCI_HolaMundoPort)(this)).obtenerTiempo(inValue);
+            UnitTestProject1.ECCI_Test.obtenerTiempoRequest inValue = new UnitTestProject1.ECCI_Test.obtenerTiempoRequest();
+            UnitTestProject1.ECCI_Test.obtenerTiempoResponse retVal = ((UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort)(this)).obtenerTiempo(inValue);
             return retVal.obtenerTiempoResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Ahorcado.ECCI.obtenerTiempoResponse> Ahorcado.ECCI.ECCI_HolaMundoPort.obtenerTiempoAsync(Ahorcado.ECCI.obtenerTiempoRequest request) {
+        System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.obtenerTiempoResponse> UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort.obtenerTiempoAsync(UnitTestProject1.ECCI_Test.obtenerTiempoRequest request) {
             return base.Channel.obtenerTiempoAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Ahorcado.ECCI.obtenerTiempoResponse> obtenerTiempoAsync() {
-            Ahorcado.ECCI.obtenerTiempoRequest inValue = new Ahorcado.ECCI.obtenerTiempoRequest();
-            return ((Ahorcado.ECCI.ECCI_HolaMundoPort)(this)).obtenerTiempoAsync(inValue);
+        public System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.obtenerTiempoResponse> obtenerTiempoAsync() {
+            UnitTestProject1.ECCI_Test.obtenerTiempoRequest inValue = new UnitTestProject1.ECCI_Test.obtenerTiempoRequest();
+            return ((UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort)(this)).obtenerTiempoAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Ahorcado.ECCI.obtenerTopResponse Ahorcado.ECCI.ECCI_HolaMundoPort.obtenerTop(Ahorcado.ECCI.obtenerTopRequest request) {
+        UnitTestProject1.ECCI_Test.obtenerTopResponse UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort.obtenerTop(UnitTestProject1.ECCI_Test.obtenerTopRequest request) {
             return base.Channel.obtenerTop(request);
         }
         
         public string obtenerTop() {
-            Ahorcado.ECCI.obtenerTopRequest inValue = new Ahorcado.ECCI.obtenerTopRequest();
-            Ahorcado.ECCI.obtenerTopResponse retVal = ((Ahorcado.ECCI.ECCI_HolaMundoPort)(this)).obtenerTop(inValue);
+            UnitTestProject1.ECCI_Test.obtenerTopRequest inValue = new UnitTestProject1.ECCI_Test.obtenerTopRequest();
+            UnitTestProject1.ECCI_Test.obtenerTopResponse retVal = ((UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort)(this)).obtenerTop(inValue);
             return retVal.obtenerTopResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Ahorcado.ECCI.obtenerTopResponse> Ahorcado.ECCI.ECCI_HolaMundoPort.obtenerTopAsync(Ahorcado.ECCI.obtenerTopRequest request) {
+        System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.obtenerTopResponse> UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort.obtenerTopAsync(UnitTestProject1.ECCI_Test.obtenerTopRequest request) {
             return base.Channel.obtenerTopAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Ahorcado.ECCI.obtenerTopResponse> obtenerTopAsync() {
-            Ahorcado.ECCI.obtenerTopRequest inValue = new Ahorcado.ECCI.obtenerTopRequest();
-            return ((Ahorcado.ECCI.ECCI_HolaMundoPort)(this)).obtenerTopAsync(inValue);
+        public System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.obtenerTopResponse> obtenerTopAsync() {
+            UnitTestProject1.ECCI_Test.obtenerTopRequest inValue = new UnitTestProject1.ECCI_Test.obtenerTopRequest();
+            return ((UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort)(this)).obtenerTopAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Ahorcado.ECCI.ganoResponse Ahorcado.ECCI.ECCI_HolaMundoPort.gano(Ahorcado.ECCI.ganoRequest request) {
+        UnitTestProject1.ECCI_Test.ganoResponse UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort.gano(UnitTestProject1.ECCI_Test.ganoRequest request) {
             return base.Channel.gano(request);
         }
         
         public bool gano() {
-            Ahorcado.ECCI.ganoRequest inValue = new Ahorcado.ECCI.ganoRequest();
-            Ahorcado.ECCI.ganoResponse retVal = ((Ahorcado.ECCI.ECCI_HolaMundoPort)(this)).gano(inValue);
+            UnitTestProject1.ECCI_Test.ganoRequest inValue = new UnitTestProject1.ECCI_Test.ganoRequest();
+            UnitTestProject1.ECCI_Test.ganoResponse retVal = ((UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort)(this)).gano(inValue);
             return retVal.ganoResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Ahorcado.ECCI.ganoResponse> Ahorcado.ECCI.ECCI_HolaMundoPort.ganoAsync(Ahorcado.ECCI.ganoRequest request) {
+        System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.ganoResponse> UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort.ganoAsync(UnitTestProject1.ECCI_Test.ganoRequest request) {
             return base.Channel.ganoAsync(request);
         }
         
-        public System.Threading.Tasks.Task<Ahorcado.ECCI.ganoResponse> ganoAsync() {
-            Ahorcado.ECCI.ganoRequest inValue = new Ahorcado.ECCI.ganoRequest();
-            return ((Ahorcado.ECCI.ECCI_HolaMundoPort)(this)).ganoAsync(inValue);
+        public System.Threading.Tasks.Task<UnitTestProject1.ECCI_Test.ganoResponse> ganoAsync() {
+            UnitTestProject1.ECCI_Test.ganoRequest inValue = new UnitTestProject1.ECCI_Test.ganoRequest();
+            return ((UnitTestProject1.ECCI_Test.ECCI_HolaMundoPort)(this)).ganoAsync(inValue);
         }
     }
 }
